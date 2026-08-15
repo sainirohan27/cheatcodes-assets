@@ -21,14 +21,13 @@
   p, li { font-size: 15px; color: #333; }
   ul { padding-left: 22px; }
   a { color: #0b5fff; }
-  .placeholder { background: #fff3cd; padding: 1px 4px; border-radius: 3px; }
   footer { margin-top: 50px; font-size: 13px; color: #888; }
 </style>
 </head>
 <body>
 
 <h1>Privacy Policy</h1>
-<p class="updated">Effective date: July 30, 2026</p>
+<p class="updated">Effective date: August 15, 2026</p>
 
 <p>This Privacy Policy explains how <strong>GTA Cheats Guide</strong> ("the App"), developed by Code Library ("we," "us," "our"), collects, uses, and discloses information when you use the App.</p>
 
@@ -36,15 +35,17 @@
 
 <h2>1. Information We Collect</h2>
 
-<h3>1.1 Information Collected Automatically</h3>
-<p>We use <strong>Firebase Crashlytics and Firebase Analytics</strong> (Google) to help us understand app stability and usage. This may include:</p>
+<h3>1.1 Content loading and on-device storage</h3>
+<p>The App loads game lists, cheat sheets, and promotional banners from <strong>Google Cloud Firestore</strong>. Images may be loaded from URLs stored in that content (including Firebase Storage or similar CDNs). Connecting to these Google services involves a normal network request. Google may process technical data associated with those requests (such as IP address and standard device or app identifiers) under <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</p>
+<p>The App does <strong>not</strong> use Firebase Crashlytics or Firebase Analytics.</p>
+<p>The App also stores information <strong>on your device only</strong> (not on our own servers), including:</p>
 <ul>
-  <li>Device model, operating system version, and app version</li>
-  <li>Crash logs and diagnostic data</li>
-  <li>General usage data (e.g., screens viewed, features used)</li>
-  <li>Approximate location (country/region level only, derived from IP address)</li>
+  <li>Cached game, cheat, and banner content so the App can load faster and work if the network is unavailable</li>
+  <li>Whether you have completed first-run setup</li>
+  <li>Whether you own the Remove Ads purchase (see section 1.3)</li>
+  <li>Advertising consent choices stored by Google's User Messaging Platform / Mobile Ads SDK</li>
 </ul>
-<p>We do not use this information to identify you personally.</p>
+<p>We do not use this information to create an account for you or to identify you by name.</p>
 
 <h3>1.2 Advertising Data</h3>
 <p>The App displays advertisements through <strong>Google AdMob (Google Mobile Ads SDK)</strong>. To serve ads, Google and its advertising partners may collect:</p>
@@ -54,7 +55,7 @@
   <li>IP address and approximate location</li>
   <li>Ad interaction data (impressions, clicks)</li>
 </ul>
-<p>If you are located in the European Economic Area, the United Kingdom, or Switzerland, you will be shown a consent form before any ads are requested, allowing you to consent, decline, or manage your preferences in detail. You can change your choice at any time via <strong>Settings → Privacy Options</strong> within the App.</p>
+<p>If you are located in the European Economic Area, the United Kingdom, or Switzerland, you will be shown a consent form before any ads are requested, allowing you to consent, decline, or manage your preferences in detail. You can change your choice at any time via <strong>Privacy options</strong> on the Pro / paywall sheet in the App.</p>
 <p>You can also opt out of personalized advertising generally through your device's ad settings (Android: Settings → Google → Ads → Opt out of Ads Personalization).</p>
 
 <h3>1.3 Purchase Information</h3>
@@ -64,24 +65,24 @@
 <ul>
   <li>We do not require account creation, sign-up, or login of any kind.</li>
   <li>We do not collect your name, email address, or phone number.</li>
-  <li>We do not access your contacts, photos, or media, except when you explicitly choose to save a wallpaper image to your device gallery, which uses a standard OS permission prompt at that moment only.</li>
+  <li>We do not access your contacts, photos, or media.</li>
   <li>We do not sell your personal information.</li>
 </ul>
 
 <h2>2. How We Use Information</h2>
 <ul>
-  <li>To display and measure the performance of advertisements</li>
-  <li>To diagnose crashes and improve app stability and performance</li>
+  <li>To load, cache, and display cheat-guide content</li>
+  <li>To display advertisements and allow Google to measure ad performance</li>
   <li>To remember your ad-free (premium) purchase status across app sessions</li>
-  <li>To understand aggregate usage patterns and improve the App over time</li>
+  <li>To remember your advertising consent choice and first-run setup on this device</li>
 </ul>
 
 <h2>3. Third-Party Services</h2>
 <p>The App relies on the following third-party services, each governed by its own privacy policy:</p>
 <ul>
-  <li><a href="https://policies.google.com/privacy" target="_blank">Google / Firebase (Firestore, Storage, Crashlytics, Analytics)</a></li>
-  <li><a href="https://policies.google.com/technologies/partner-sites" target="_blank">Google AdMob</a></li>
-  <li><a href="https://play.google.com/intl/en_us/about/play-terms/index.html" target="_blank">Google Play Billing</a></li>
+  <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google / Firebase (Cloud Firestore; images may be served from Firebase Storage)</a></li>
+  <li><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Google AdMob</a></li>
+  <li><a href="https://play.google.com/intl/en_us/about/play-terms/index.html" target="_blank" rel="noopener">Google Play Billing</a></li>
 </ul>
 <p>We encourage you to review these third parties' privacy policies to understand how they process data.</p>
 
@@ -89,11 +90,11 @@
 <p>GTA Cheats Guide is intended for a general audience and is not directed at children under the age of 13 (or the relevant age of digital consent in your region). We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us using the details below so we can address it.</p>
 
 <h2>5. Data Retention &amp; Security</h2>
-<p>Analytics and crash data are retained according to Google Firebase's standard retention periods. We do not maintain our own servers storing personal user data beyond the local, on-device storage described above (e.g., your ad-free purchase status).</p>
+<p>We do not maintain our own servers storing personal user data. Content cache, first-run status, and your ad-free purchase flag remain on your device until you clear the App's data or uninstall the App. Advertising consent is stored by Google's Mobile Ads SDK on the device. Game and cheat content requested from Firestore is processed by Google according to Google's retention practices.</p>
 
 <h2>6. Your Rights &amp; Choices</h2>
 <ul>
-  <li>You may manage or withdraw advertising consent at any time via <strong>Settings → Privacy Options</strong> in the App.</li>
+  <li>You may manage or withdraw advertising consent at any time via <strong>Privacy options</strong> on the Pro / paywall sheet in the App.</li>
   <li>You may opt out of personalized advertising through your device's system settings.</li>
   <li>You may request information about data associated with your device by contacting us below.</li>
   <li>Residents of the EEA, UK, and certain US states may have additional rights under GDPR, UK GDPR, or applicable state privacy laws (e.g., access, deletion, or objection rights) — contact us to exercise these.</li>
