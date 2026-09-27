@@ -27,7 +27,7 @@
 <body>
 
 <h1>Privacy Policy</h1>
-<p class="updated">Effective date: August 27, 2026</p>
+<p class="updated">Effective date: September 27, 2026</p>
 
 <p>This Privacy Policy explains how <strong>GTA Cheats Guide</strong> ("the App"), developed by Code Library ("we," "us," "our"), collects, uses, and discloses information when you use the App.</p>
 
@@ -36,11 +36,11 @@
 <h2>1. Information We Collect</h2>
 
 <h3>1.1 Content loading and on-device storage</h3>
-<p>The App loads game lists, cheat sheets, and promotional banners from <strong>Google Cloud Firestore</strong>. Images may be loaded from URLs stored in that content (including Firebase Storage or similar CDNs). Connecting to these Google services involves a normal network request. Google may process technical data associated with those requests (such as IP address and standard device or app identifiers) under <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</p>
-<p>The App does <strong>not</strong> use Firebase Crashlytics or Firebase Analytics.</p>
+<p>The App loads game lists, cheat sheets, missions, characters, and promotional banners from <strong>Google Cloud Firestore</strong>. Images are loaded from URLs stored in that content, currently files hosted on GitHub (raw.githubusercontent.com). Connecting to these services involves a normal network request, so Google and GitHub receive technical data associated with those requests (such as your IP address and standard device or app information) and process it under their own privacy policies (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google</a>, <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">GitHub</a>).</p>
 <p>The App also stores information <strong>on your device only</strong> (not on our own servers), including:</p>
 <ul>
-  <li>Cached game, cheat, and banner content so the App can load faster and work if the network is unavailable</li>
+  <li>Cached game, cheat, mission, character, and banner content so the App can load faster and work if the network is unavailable</li>
+  <li>Cheats and games you save as favourites</li>
   <li>Whether you have completed first-run setup</li>
   <li>Advertising consent choices stored by Google's User Messaging Platform / Mobile Ads SDK</li>
 </ul>
@@ -55,13 +55,35 @@
   <li>Ad interaction data (impressions, clicks)</li>
 </ul>
 <p>If you are located in the European Economic Area, the United Kingdom, or Switzerland, you will be shown a consent form before any ads are requested, allowing you to consent, decline, or manage your preferences in detail. You can change your choice at any time via <strong>Privacy options</strong> in the App (Home screen, information icon).</p>
-<p>You can also opt out of personalized advertising generally through your device's ad settings (Android: Settings → Google → Ads → Opt out of Ads Personalization).</p>
+<p>You can also opt out of personalized advertising generally through your device's ad settings (Android: Settings → Google → Ads → Opt out of Ads Personalization, or delete / reset your advertising ID).</p>
 
-<h3>1.3 Information We Do Not Collect</h3>
+<h3>1.3 Usage Analytics (Google Analytics for Firebase)</h3>
+<p>The App uses <strong>Google Analytics for Firebase</strong> to understand how the App is used, so we can decide which games and features to improve. It may collect:</p>
+<ul>
+  <li>An app-instance identifier generated for this installation of the App</li>
+  <li>Device and app information (device model, operating system version, app version, language, and approximate country/region derived from your IP address)</li>
+  <li>How you use the App: screens viewed, games and platforms opened, cheats viewed, copied, favourited or shared, missions opened, and search terms entered in the App's cheat search</li>
+  <li>Session information such as first launch, session start, and time spent in the App</li>
+  <li>Summary advertising events reported by the Mobile Ads SDK (for example, that an ad was shown)</li>
+</ul>
+<p>Analytics data is not used to identify you by name and is not used by us to personalize ads. If you are in the European Economic Area, the United Kingdom, or Switzerland, the App runs Analytics in a restricted mode: it does not store the app-instance identifier on your device and sends only limited, non-identifying signals.</p>
+<p>Please do not type personal information (such as your name or email address) into the cheat search box.</p>
+
+<h3>1.4 Crash Reporting (Firebase Crashlytics)</h3>
+<p>The App uses <strong>Firebase Crashlytics</strong> to receive reports when the App crashes or hits an error, so we can fix problems. A crash report may include:</p>
+<ul>
+  <li>Technical details of the error (stack trace) and the state of the App when it happened</li>
+  <li>Device and app information (device model, operating system version, app version, available memory and storage, orientation)</li>
+  <li>A Crashlytics installation identifier generated for this installation of the App</li>
+</ul>
+<p>Crash reports do not include your name, contacts, or the content of your device.</p>
+
+<h3>1.5 Information We Do Not Collect</h3>
 <ul>
   <li>We do not require account creation, sign-up, or login of any kind.</li>
   <li>We do not collect your name, email address, or phone number.</li>
   <li>We do not access your contacts, photos, or media.</li>
+  <li>We do not collect precise (GPS) location.</li>
   <li>We do not collect payment details. This version of the App does not offer in-app purchases.</li>
   <li>We do not sell your personal information.</li>
 </ul>
@@ -69,15 +91,18 @@
 <h2>2. How We Use Information</h2>
 <ul>
   <li>To load, cache, and display cheat-guide content</li>
+  <li>To remember your favourites, advertising consent choice, and first-run setup on this device</li>
   <li>To display advertisements and allow Google to measure ad performance</li>
-  <li>To remember your advertising consent choice and first-run setup on this device</li>
+  <li>To understand how the App is used and improve its content and features (Google Analytics for Firebase)</li>
+  <li>To detect, diagnose, and fix crashes and errors (Firebase Crashlytics)</li>
 </ul>
 
 <h2>3. Third-Party Services</h2>
-<p>The App relies on the following third-party services, each governed by its own privacy policy:</p>
+<p>The App relies on the following third-party services, each governed by its own privacy policy. Google acts as a service provider to us for Firebase services.</p>
 <ul>
-  <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google / Firebase (Cloud Firestore; images may be served from Firebase Storage)</a></li>
-  <li><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Google AdMob</a></li>
+  <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Google Firebase: Cloud Firestore, Google Analytics for Firebase, Firebase Crashlytics</a></li>
+  <li><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Google AdMob (how Google uses information from sites or apps that use its services)</a></li>
+  <li><a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">GitHub (image hosting)</a></li>
 </ul>
 <p>We encourage you to review these third parties' privacy policies to understand how they process data.</p>
 
@@ -85,13 +110,20 @@
 <p>GTA Cheats Guide is intended for a general audience and is not directed at children under the age of 13 (or the relevant age of digital consent in your region). We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us using the details below so we can address it.</p>
 
 <h2>5. Data Retention &amp; Security</h2>
-<p>We do not maintain our own servers storing personal user data. Content cache and first-run status remain on your device until you clear the App's data or uninstall the App. Advertising consent is stored by Google's Mobile Ads SDK on the device. Game and cheat content requested from Firestore is processed by Google according to Google's retention practices.</p>
+<p>We do not maintain our own servers storing personal user data. Content cache, favourites, and first-run status remain on your device until you clear the App's data or uninstall the App. Advertising consent is stored by Google's Mobile Ads SDK on the device.</p>
+<ul>
+  <li><strong>Analytics:</strong> user-level analytics data is retained by Google for 14 months, after which it is deleted automatically; aggregated reports may be kept longer.</li>
+  <li><strong>Crash reports:</strong> retained by Firebase Crashlytics for 90 days.</li>
+  <li><strong>Content requests:</strong> requests to Firestore and image hosts are processed by Google and GitHub according to their own retention practices.</li>
+</ul>
+<p>All data sent by the App to these services is encrypted in transit (HTTPS).</p>
 
 <h2>6. Your Rights &amp; Choices</h2>
 <ul>
   <li>You may manage or withdraw advertising consent at any time via <strong>Privacy options</strong> in the App (Home screen, information icon).</li>
-  <li>You may opt out of personalized advertising through your device's system settings.</li>
-  <li>You may request information about data associated with your device by contacting us below.</li>
+  <li>You may opt out of personalized advertising, or reset or delete your advertising ID, through your device's system settings.</li>
+  <li>Clearing the App's data or uninstalling the App deletes everything stored on your device and resets the analytics and crash-reporting identifiers.</li>
+  <li>You may request information about, or deletion of, data associated with your installation by contacting us below.</li>
   <li>Residents of the EEA, UK, and certain US states may have additional rights under GDPR, UK GDPR, or applicable state privacy laws (e.g., access, deletion, or objection rights) — contact us to exercise these.</li>
 </ul>
 
